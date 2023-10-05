@@ -1,0 +1,118 @@
+dl, ol, ul {
+    margin-top: 0;
+}
+
+address, dl, ol, ul {
+    margin-bottom: 1rem;
+}
+#btn-encuesta {
+    position: fixed;
+    left: -140px;
+    background: #ffc627;
+    box-shadow: 30px 10px 48px -30px rgba(0,0,0,0.8);
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 9;
+    transform: rotateZ(-90deg);
+    bottom: 25%;
+}
+#btn-encuesta:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 9px solid #ffc627;
+    bottom: -6px;
+    content: "";
+    height: 0;
+    right: 10%;
+    margin-left: -6px;
+    position: absolute;
+    width: 0;
+}
+#btn-encuesta h5 {
+    margin: 0;
+    font-size: unset;
+    color: #c22821;
+    display: flex;
+    align-items: center;
+}
+
+#btn-encuesta h5:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(/img/listen.png) no-repeat center / contain;
+    display: block;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+}
+.features-desktop {
+    padding: 1rem 0 0;
+    top: -45px;
+    position: relative;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.justify-content-md-center {
+    justify-content: center!important
+}
+section > div > a > img {
+    width: 100%
+}
+section > div > a  {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.container.destacados {
+    margin-top: -20px;
+}
+.destacados h2 {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+
+h2 {
+    font-weight: 700;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.h2, h2 {
+    font-size: 1.8rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.destacados img {
+    max-width: 100%;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+    
+}
